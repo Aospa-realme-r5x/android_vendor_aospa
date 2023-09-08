@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from r5x device configuration.
-$(call inherit-product, device/realme/r5x/device.mk)
+$(call inherit-product, device/realme/r5x/r5x.mk)
 
 # Inherit from common AOSPA configuration
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
